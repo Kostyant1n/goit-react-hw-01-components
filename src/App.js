@@ -15,12 +15,12 @@ function App() {
     </>    
   );
 }
-const NewApp = (props) => {
-  return <HashRouter basename={process.env.PUBLIC_URL}>
-    <Provider store={store}>
-      <AppContainer />
-    </Provider>
-  </HashRouter>
+// const NewApp = (props) => {
+//   return <HashRouter basename={process.env.PUBLIC_URL}>
+//     <Provider store={store}>
+//       <AppContainer />
+//     </Provider>
+//   </HashRouter>
 }
   export default App
-  export default NewApp
+  // export default NewApp
