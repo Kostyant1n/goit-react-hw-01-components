@@ -1,0 +1,93 @@
+.profile {
+  display: blok;
+  width: 270px;
+  margin-top: 10px;
+  margin-left: 10px;
+
+  background: #fbfbff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 170px;
+  height: 160px;
+  background: grey;
+
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 15px;
+
+  color: #212121;
+}
+
+.tag {
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 5px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.location {
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 5px;
+
+  color: #757575;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgb(228, 228, 228);
+  margin-top: 15px;
+}
+
+.stats li {
+  border: solid 1px grey;
+  padding: 10px;
+}
+.label {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}

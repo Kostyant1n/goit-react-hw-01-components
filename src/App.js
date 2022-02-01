@@ -3,7 +3,6 @@ import Profiles from './components/Profile/Profile';
 import Statistic from './components/Statistics/Statistics';
 import Friends from './components/FriendList/Friends';
 import Transactions from './components/TransactionHistory/Transaction';
-import {HashRouter} from 'react-router-dom';
 
 function App() {
   return (
@@ -12,15 +11,8 @@ function App() {
       <Statistic />
       <Friends />
       <Transactions />
-    </>    
+    </>
   );
 }
-// const NewApp = (props) => {
-//   return <HashRouter basename={process.env.PUBLIC_URL}>
-//     <Provider store={store}>
-//       <AppContainer />
-//     </Provider>
-//   </HashRouter>
-}
-  export default App
-  // export default NewApp
+
+export default App;
