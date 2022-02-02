@@ -42,6 +42,12 @@ ProfileListItem.propTypes = {
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
   avatar: PropTypes.string.isRequired,
+  stats: PropTypes.arrayOf(
+    PropTypes.shape({
+      label: PropTypes.string,
+      quantity: PropTypes.number,
+    }),
+  ),
 };
 
 export default ProfileListItem;
