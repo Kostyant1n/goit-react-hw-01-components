@@ -44,8 +44,9 @@ ProfileListItem.propTypes = {
   avatar: PropTypes.string.isRequired,
   stats: PropTypes.arrayOf(
     PropTypes.shape({
-      label: PropTypes.string,
-      quantity: PropTypes.number,
+      followers: PropTypes.number,
+      views: PropTypes.number,
+      likes: PropTypes.number,
     }),
   ),
 };
